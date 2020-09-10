@@ -1,0 +1,53 @@
+.widget {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 50px 50px 100px 50px;
+  overflow: hidden;
+}
+.date { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.current-day-number {
+  text-transform: capitalize;
+  margin-right: 15px;
+}
+.current-month {
+  text-transform: capitalize;
+}
+.current-day-name {
+  text-transform: capitalize;
+
+}
+
+.temperature {
+  margin-bottom: 15px;
+}
+.weather-description{
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.characteristics-item {
+  display: flex;
+}
+.characteristics-label {
+  margin-right: 10px;
+  
+}
+.characteristics-value {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.weather-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 50px;
+  background-color: rgba(75, 75, 75, 0.5);
+}
+.btn-switch-hour {
+  margin-right: 15px;
+}

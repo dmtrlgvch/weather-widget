@@ -1,0 +1,36 @@
+.header{
+    padding: 15px 0;
+    background: #ccc;
+}
+.header>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 33px;
+
+}
+.logo::before {
+    content: '';
+    background-image: url('./images/logo-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 30px;
+}
+.logo:hover {
+    text-decoration: none;
+}
+
+.header-actions {
+    display: flex;
+}
+.add-city-btn{
+    margin-right: 20px;
+}
